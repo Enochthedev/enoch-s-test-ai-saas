@@ -90,3 +90,98 @@ Running commands with npm `npm run [command]`
 | command         | description                              |
 | :-------------- | :--------------------------------------- |
 | `dev`           | Starts a development instance of the app |
+# My Journey Recreating "Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023" 
+
+![Copy of Copy of Copy of Fullstack Twitter Clone](https://github.com/AntonioErdeljac/next13-ai-saas/assets/23248726/c47e604a-b50b-4eb0-b420-fda20908f522)
+
+This repository is the result of my journey to recreate the project "Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023," which I discovered through a video tutorial.
+
+The original project, created by its owner, Antonio Erdeljac, is an impressive combination of modern web development technologies and AI integration. It offers various features, including Tailwind design, animations, authentication with multiple methods, form validation, error handling, AI tools, Stripe subscription, and much more. As I ventured into recreating this project, I not only gave credit to Antonio Erdeljac, the GitHub owner but also appreciated the concepts it introduced.
+
+### How the Concepts Helped
+
+My journey to recreate this project allowed me to gain valuable insights and practical knowledge in several areas:
+
+- **Tailwind Design**: I learned how to use Tailwind CSS to create a visually appealing and responsive user interface.
+
+- **Authentication**: The project includes Clerk Authentication, which supports email, Google, and several other social logins. This knowledge is vital for building secure and user-friendly authentication systems.
+
+- **Form Validation and Error Handling**: I implemented form validation using react-hook-form and error handling with react-toast, enhancing the overall user experience.
+
+- **AI Integration**: The project integrates AI tools for image generation, video generation, conversation generation, and music generation. This experience opened my eyes to the possibilities of AI in web applications.
+
+- **Stripe Subscription**: I got hands-on experience in setting up a Stripe monthly subscription model, a crucial aspect of monetizing web applications.
+
+- **API and Server Development**: I learned how to create POST, DELETE, and GET routes in route handlers (app/api) and fetch data in server-side react components directly from the database, without using a separate API.
+
+- **Layout Reusability and Folder Structure**: The project demonstrated how to efficiently reuse layouts and maintain a structured folder layout in Next.js 13.
+
+### Prerequisites
+
+Before getting started, make sure you have Node.js version 18.x.x installed on your system.
+
+### Cloning the Repository
+
+To begin, clone the repository by running the following command:
+
+```shell
+git clone https://github.com/AntonioErdeljac/next13-ai-saas.git
+```
+
+### Installing Packages
+
+Next, install the required packages by executing the following command:
+
+```shell
+npm i
+```
+
+### Setting Up .env File
+
+To ensure the project functions correctly, set up your environment variables in the .env file. Replace the placeholders with your own values:
+
+```js
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+
+OPENAI_API_KEY=
+REPLICATE_API_TOKEN=
+
+DATABASE_URL=
+
+STRIPE_API_KEY=
+STRIPE_WEBHOOK_SECRET=
+
+NEXT_PUBLIC_APP_URL="http://localhost:3000"
+```
+
+### Setting Up Prisma
+
+If you plan to use a MySQL database, add your database configuration. The example here shows the use of PlanetScale:
+
+```shell
+npx prisma db push
+```
+
+### Starting the Application
+
+Finally, start the application with the following command:
+
+```shell
+npm run dev
+```
+
+## Available Commands
+
+The project offers several commands, which you can run using npm:
+
+| Command  | Description                                |
+| :------- | :----------------------------------------- |
+| `dev`    | Starts a development instance of the app  |
+
+By following these steps and exploring the project,i gained a deeper understanding of modern web development, AI integration, and best practices in creating web applications. My journey in recreating this project has been both educational and inspiring.
