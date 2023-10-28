@@ -4,29 +4,36 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Joel",
+    name: "John",
     avatar: "J",
-    title: "Software Engineer",
-    description: "This is the best application I've ever used!",
-  },
-  {
-    name: "Antonio",
-    avatar: "A",
-    title: "Designer",
+    title: "Developer",
     description: "I use this daily for generating new photos!",
   },
   {
-    name: "Mark",
-    avatar: "M",
-    title: "CEO",
-    description: "This app has changed my life, cannot imagine working without it!",
+    name: "Jane",
+    avatar: "J",
+    title: "Designer",
+    description: "I use this daily for generating pictures and it's great",
   },
   {
-    name: "Mary",
+    name: "markus",
     avatar: "M",
-    title: "CFO",
-    description: "The best in class, definitely worth the premium subscription!",
+    title: "artist",
+    description: "yo the tunes from this site are fire",
   },
+  //generate 2 more random ones about using the site to create videos, code and just talking in general
+  {
+    name: "Alice",
+    avatar: "A",
+    title: "Content Creator",
+    description: "I use this app to create engaging and informative videos for my YouTube channel. It's so easy to use, and I love the fact that I can create high-quality videos without any prior video editing experience."
+    },
+    {
+    name: "Bob",
+    avatar: "B",
+    title: "Software Developer",
+    description: "I use this app to generate code snippets and debug my code. It's a huge time saver, and it helps me to write more efficient and bug-free code."
+    }
 ];
 
 export const LandingContent = () => {
