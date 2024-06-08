@@ -1,13 +1,6 @@
-# Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023
+# SaaS AI platform
 
-![Copy of Copy of Copy of Fullstack Twitter Clone](https://github.com/AntonioErdeljac/next13-ai-saas/assets/23248726/c47e604a-b50b-4eb0-b420-fda20908f522)
-
-
-
-This is a repository for Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023.
-
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=ffJ38dBzrlY)
-
+This is a repository for Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe 
 Features:
 
 - Tailwind design
@@ -90,15 +83,9 @@ Running commands with npm `npm run [command]`
 | command         | description                              |
 | :-------------- | :--------------------------------------- |
 | `dev`           | Starts a development instance of the app |
-# My Journey Recreating "Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023" 
 
-![Copy of Copy of Copy of Fullstack Twitter Clone](https://github.com/AntonioErdeljac/next13-ai-saas/assets/23248726/c47e604a-b50b-4eb0-b420-fda20908f522)
 
-This repository is the result of my journey to recreate the project "Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023," which I discovered through a video tutorial.
-
-The original project, created by its owner, Antonio Erdeljac, is an impressive combination of modern web development technologies and AI integration. It offers various features, including Tailwind design, animations, authentication with multiple methods, form validation, error handling, AI tools, Stripe subscription, and much more. As I ventured into recreating this project, I not only gave credit to Antonio Erdeljac, the GitHub owner but also appreciated the concepts it introduced.
-
-### How the Concepts Helped
+### How some Concepts Helped
 
 My journey to recreate this project allowed me to gain valuable insights and practical knowledge in several areas:
 
@@ -125,7 +112,7 @@ Before getting started, make sure you have Node.js version 18.x.x installed on y
 To begin, clone the repository by running the following command:
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-ai-saas.git
+git clone https://github.com/Enochthedev/enoch-s-test-ai-saas
 ```
 
 ### Installing Packages
