@@ -29,7 +29,7 @@ Features:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com//Enochthedev/enoch-s-test-ai-saas.git
+git clone https://github.com/Enochthedev/enoch-s-test-ai-saas.git
 ```
 
 ### Install packages
@@ -112,7 +112,7 @@ Before getting started, make sure you have Node.js version 18.x.x installed on y
 To begin, clone the repository by running the following command:
 
 ```shell
-git clone https://github.com/Enochthedev/enoch-s-test-ai-saas
+git clone https://github.com/Enochthedev/enoch-s-test-ai-saas.git
 ```
 
 ### Installing Packages
